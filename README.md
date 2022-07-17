@@ -12,6 +12,7 @@ This is the template for the back end of an E-commerce website. By using JAWSdb,
 
 ## Installation
 - Please type in "npm i" to install all necessary packages in the package.json.
+- Next, log into mysql with "mysql -u root -p" and run "source db/schema.sql" to ensure the correct database is being used.
 - Then type in "npm run seed" to enter all data within the db and seed folders (the schema.sql and data information will be entered into the mysql database this way)
 - To begin the applications, simply type "npm start" into the terminal.
 - The user can then enter get, post, put, and delete requests here to search for all products, tags, and category, including single item searches, updating items, and more.
