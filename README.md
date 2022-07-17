@@ -6,21 +6,23 @@
 * [Walkthrough](#Walkthrough)
 * [Usage](#Usage)
 * [License](#License) 
-* [Questions](#Questions)
 
 ## Overview
-This is the SQL Employee Tracker. By entering your answers into the console line, you should be able to create database of your employees with ease!
+This is the template for the back end of an E-commerce website. By using JAWSdb, Heroku, dotenv, Express, Mysql, and Sequelize, a database of products, categories, and tags can be created without having the user type in any SQL.
 
 ## Installation
-First, be sure to install Node on your computer. NPM and Inquirer, MYSQL2, and console.table should be installed as well. SQL will also need to be installed. 
-To begin the applications, simply type "npm start" into the terminal, or "node {your root here}.index.js".
+- Please type in "npm i" to install all necessary packages in the package.json.
+- Then type in "npm run seed" to enter all data within the db and seed folders (the schema.sql and data information will be entered into the mysql database this way)
+- To begin the applications, simply type "npm start" into the terminal.
+- The user can then enter get, post, put, and delete requests here to search for all products, tags, and category, including single item searches, updating items, and more.
+- The database as been uploaded to heroku and uses jawsdb as a server.
 
 ## Walkthrough
-[[Watch the video]](https://youtu.be/oCszNTlQoVo)
+[[Watch the video]](https://youtu.be/WsNRyMAb7w0)
 
 
 ## Usage
-This can be used to create a database of employees and all relevant information. The user must simply answer the questions when prompted, and the Employee Tracker will be automatically generate all information into the SQL database.
+This can be used to create a database of products, tags, and categories for an e-commerce website. This is the BACK END ONLY - the front end will need to be added in order to create a fully functioning website. 
 
 
 ## License
